@@ -1,0 +1,3 @@
+Extend ext4 EBS in AWS
+  growpart /dev/xvda 1
+  resize2fs /dev/xvda1
